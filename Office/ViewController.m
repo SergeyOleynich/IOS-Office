@@ -28,8 +28,8 @@ NSString *dayOfTheWeek;
 {
     [super viewDidLoad];
     
-    
     firstArray = [NSMutableArray new];
+    
     
     listOfVisitors = [NSMutableArray new];
     
