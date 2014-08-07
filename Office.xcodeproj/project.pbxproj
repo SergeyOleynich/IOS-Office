@@ -21,6 +21,8 @@
 		C39BEA96197FF526001088EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39BEA78197FF525001088EA /* UIKit.framework */; };
 		C39BEA9E197FF526001088EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39BEA9C197FF526001088EA /* InfoPlist.strings */; };
 		C39BEAA0197FF526001088EA /* OfficeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C39BEA9F197FF526001088EA /* OfficeTests.m */; };
+		C39BEABD1987A131001088EA /* TableResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C39BEABC1987A131001088EA /* TableResult.m */; };
+		C39BEABF1987A14E001088EA /* TableResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39BEABE1987A14E001088EA /* TableResult.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C39BEA9B197FF526001088EA /* OfficeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfficeTests-Info.plist"; sourceTree = "<group>"; };
 		C39BEA9D197FF526001088EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C39BEA9F197FF526001088EA /* OfficeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficeTests.m; sourceTree = "<group>"; };
+		C39BEABB1987A131001088EA /* TableResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableResult.h; path = ../TableResult.h; sourceTree = "<group>"; };
+		C39BEABC1987A131001088EA /* TableResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableResult.m; path = ../TableResult.m; sourceTree = "<group>"; };
+		C39BEABE1987A14E001088EA /* TableResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableResult.xib; path = ../TableResult.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				C39BEA86197FF525001088EA /* Main.storyboard */,
 				C39BEA89197FF525001088EA /* ViewController.h */,
 				C39BEA8A197FF525001088EA /* ViewController.m */,
+				C39BEABB1987A131001088EA /* TableResult.h */,
+				C39BEABC1987A131001088EA /* TableResult.m */,
+				C39BEABE1987A14E001088EA /* TableResult.xib */,
 				C39BEA8C197FF525001088EA /* Images.xcassets */,
 				C39BEA7B197FF525001088EA /* Supporting Files */,
 			);
@@ -231,6 +239,7 @@
 				C39BEA8D197FF525001088EA /* Images.xcassets in Resources */,
 				C39BEA7F197FF525001088EA /* InfoPlist.strings in Resources */,
 				C39BEA88197FF525001088EA /* Main.storyboard in Resources */,
+				C39BEABF1987A14E001088EA /* TableResult.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 				C39BEA8B197FF525001088EA /* ViewController.m in Sources */,
 				C39BEA85197FF525001088EA /* AppDelegate.m in Sources */,
 				C39BEA81197FF525001088EA /* main.m in Sources */,
+				C39BEABD1987A131001088EA /* TableResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
