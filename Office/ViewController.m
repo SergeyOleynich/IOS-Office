@@ -30,7 +30,6 @@ NSString *dayOfTheWeek;
     
     firstArray = [NSMutableArray new];
     
-    
     listOfVisitors = [NSMutableArray new];
     
     translateFromHourToMinute = [NSNumber numberWithInt:60];
