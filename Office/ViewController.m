@@ -28,6 +28,7 @@ NSString *dayOfTheWeek;
 {
     [super viewDidLoad];
     
+    
     firstArray = [NSMutableArray new];
     
     listOfVisitors = [NSMutableArray new];
@@ -36,6 +37,7 @@ NSString *dayOfTheWeek;
     self.outButtom.enabled = NO;
     
     week = [NSSet setWithObjects:@"MONDAY", @"THUESDAY", @"WEDNESDAY", @"THURSDAY", @"FRIDAY", @"SATURDAY", @"SUNDAY", nil];
+    
         
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -56,6 +58,7 @@ NSString *dayOfTheWeek;
     newDayAlertView.alertViewStyle = UIAlertViewStyleDefault;
     newDayAlertView.tag = 101;
     [newDayAlertView show];
+    
 }
 
 - (IBAction)pushIncomingButtonForPerson:(id)sender
